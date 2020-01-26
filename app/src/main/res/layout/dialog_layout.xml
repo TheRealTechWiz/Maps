@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="15sp">
+
+    <EditText
+        android:id="@+id/marname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marker Name" />
+    <!--<EditText-->
+        <!--android:id="@+id/categoryName"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10sp"-->
+        <!--android:layout_below="@id/marname"-->
+        <!--android:hint="Add Category" />-->
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/marname"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="10sp"
+        android:id="@+id/spinner">
+    </android.support.v7.widget.AppCompatSpinner>
+
+
+
+</RelativeLayout>

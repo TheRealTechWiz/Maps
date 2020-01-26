@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Maps</string>
+    <string name="title_activity_maps">Map
+    </string>
+    <string-array name="dialogDropdownItem">
+        <item>Hostel</item>
+        <item>Food &amp; Beverages</item>
+        <item>Parking</item>
+        <item>Office</item>
+        <item>Washroom</item>
+
+    </string-array>
+</resources>
